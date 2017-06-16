@@ -24,7 +24,7 @@
 .boton{
 	float:left;
 	width:20%;
-	margin-top: 10%;
+	margin-top: 15%;
 }
 .container{
 	text-align: center;
@@ -43,18 +43,9 @@
 	font-size: 17px;
 	color:grey;
 }
-.botonwhat>a{
-	font-size: 17px;
-	color:grey;	
-}
-.botonwhat{
-	margin-top: 8%;
-	float:left;
-	width:20%;
-}
 .botonac{
 	background-color: lightgrey;
-	margin-top: 10%;
+	margin-top: 15%;
 	float:left;
 	width:20%;
 }
