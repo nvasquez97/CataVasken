@@ -29,9 +29,15 @@
 .container{
 	text-align: center;
 }
+.descHome{
+	text-align: justify;
+}
 .botonac>a{
-	color:rgb(137,67,15);
-	font-size: 19px;
+	color:rgb(50,50,50);
+	font-size: 17px;
+}
+.boton:hover{
+	background-color: lightgrey;
 }
 .boton>a{
 	font-size: 17px;
@@ -47,6 +53,7 @@
 	width:20%;
 }
 .botonac{
+	background-color: lightgrey;
 	margin-top: 10%;
 	float:left;
 	width:20%;
