@@ -17,6 +17,9 @@
 .imglogo{
 	height:300px;
 }
+.img-responsive {
+    margin: 0 auto;
+}
 @font-face {
     font-family: Colonna;
     src: url(../font/cgzeppelin_regular.ttf);
