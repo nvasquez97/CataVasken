@@ -14,13 +14,28 @@
 }
 .logo{
 	text-align: center;
-	width: 50%;	
+	max-width: 90%;	
+	float:right;
+}
+.logoI{
 	float:left;
+	width:10%;
+}
+.welcomeD{
+	float:right;
+	width:10%;
 }
 .welcome{
-	max-width:50%;
+	max-width:90%;
+	float:left;
+}
+.welcomeG{
+	width:50%;
 	float:right;
-	margin-right: 20%
+}
+.logoG{
+	width:50%;
+	float:left;
 }
 .container{
 	text-align: center;
