@@ -1,13 +1,13 @@
 .titulo{
 	color: rgb(130, 68, 17);
 	font-family: Colonna;
-	font-size: 50px;
+	font-size: 45px;
 	margin-top: 45px;
 }
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
 	font-family: Colonna;
-	font-size: 35px;
+	font-size: 30px;
 }
 .home{
 	text-align: center;
@@ -64,5 +64,5 @@
 }
 @font-face {
     font-family: Colonna;
-    src: url(../font/cgzeppelin_regular.ttf);
+    src: url(../font/IMPRISHA.TTF);
 }
