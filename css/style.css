@@ -24,16 +24,14 @@
 .boton{
 	float:left;
 	width:20%;
-	margin-top: 8%;
+	margin-top: 10%;
 }
 .container{
 	text-align: center;
 }
 .botonac>a{
 	color:rgb(137,67,15);
-	font-weight: bold;
 	font-size: 19px;
-	font-family: Colonna;
 }
 .img-responsive {
     margin: 0 auto;
@@ -47,12 +45,12 @@
 	color:grey;	
 }
 .botonwhat{
-	margin-top: 6%;
+	margin-top: 8%;
 	float:left;
 	width:20%;
 }
 .botonac{
-	margin-top: 8%;
+	margin-top: 10%;
 	float:left;
 	width:20%;
 }
