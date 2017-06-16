@@ -1,11 +1,12 @@
 .titulo{
-	color: black;
+	color: rgb(130, 68, 17);
 	font-family: Colonna;
-	font-size: 40px;
+	font-size: 60px;
 }
 .subtitulo{
-	color:rgb(119,119,119);
+	color: rgba(130, 68, 17,0.7);
 	font-family: Colonna;
+	font-size: 40px;
 }
 .home{
 	text-align: center;
@@ -26,11 +27,13 @@
 	width:20%;
 	margin-top: 15%;
 }
-.container{
-	text-align: center;
-}
+
 .descHome{
 	text-align: justify;
+	font-family: initial;
+	font-size: 17px;
+	margin-right: 2%;
+	margin-left: 2%;
 }
 .botonac>a{
 	color:rgb(50,50,50);
@@ -48,6 +51,15 @@
 	margin-top: 15%;
 	float:left;
 	width:20%;
+}
+.imgI{
+	float:left;
+}
+.textD{
+	float:left;
+}
+.todo{
+	display: inline-block;
 }
 @font-face {
     font-family: Colonna;
