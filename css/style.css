@@ -45,6 +45,7 @@
 }
 div.col-md-7{
 	text-align: left;
+	padding-left: 0;
 }
 img.imgCentro{
     display: block;
@@ -59,11 +60,11 @@ h1.titulo{
 h3.subtitulo{
 	margin-top: 0;
 }
-div.row.home{
+/*div.row.home{
 	padding-left: 7%;
 	padding-right: 5%;
-}
-div.col-md-6.bots{
+}*/
+div.col-md-5.bots{
 	padding-right: 0;
 }
 .boton>a{
