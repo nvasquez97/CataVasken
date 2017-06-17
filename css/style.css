@@ -34,7 +34,10 @@
 	width:34%;
 }
 .centerTop{
-	padding-top: 10%;
+	padding-top: 4%;
+}
+li>p.descHome{
+	margin:0;
 }
 .copyRight{
 	font-family: initial;	
