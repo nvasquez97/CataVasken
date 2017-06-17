@@ -4,6 +4,12 @@
 	font-size: 45px;
 	margin-top: 45px;
 }
+.headerT{
+	background-color: rgb(241,239,200);
+	border-bottom: solid 4px;
+	border-color: rgb(130, 68, 17);
+	padding-bottom: 1%;
+}
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
 	font-family: Colonna;
@@ -24,7 +30,7 @@
 	float:right;
 }
 .panelH{
-	margin:2.5%;
+	margin:2%;
 }
 .boton{
 	float:left;
