@@ -62,11 +62,13 @@
 	display: inline-block;
 	width:100%;
 }
-.aboutI{
-
+div.col-md-4.aboutI{
+	padding-left: 0;
+	padding-top: 2%;
 }
 .aboutD{
-	
+	padding-right: 0;
+	padding-top: 5%;
 }
 .logo{
 	text-align: center;	
