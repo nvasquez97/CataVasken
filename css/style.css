@@ -43,6 +43,10 @@
 .boton:hover{
 	background-color: lightgrey;
 }
+div.row.home{
+	padding-left: 7%;
+	padding-right: 7%;
+}
 div.col-md-6.bots{
 	padding-right: 0;
 }
