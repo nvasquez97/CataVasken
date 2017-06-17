@@ -49,6 +49,8 @@
 .navBottom{
 	background-color: rgb(241,239,200);
 	color:grey;
+	border-top: solid 2px;
+	border-color: rgb(130, 68, 17);
 }
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
@@ -82,8 +84,6 @@
 	text-align: justify;
 	font-family: initial;
 	font-size: 20px;
-	margin-right: 4%;
-	margin-left: 4%;
 }
 .botonac>a{
 	color:rgb(50,50,50);
