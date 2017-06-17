@@ -4,9 +4,40 @@
 	font-size: 40px;
 	margin-top: 55px;
 }
+.navBot{
+	color:grey;
+}
+.marginT{
+	margin-top: 25px;
+	font-family: initial;	
+	font-size: 20px;
+	padding:15px;
+}
+
+.navG{
+	display:inline-block;
+	width:100%;
+}
+.navBI{
+	text-align: left;
+	float:left;
+	width: 33%;
+}
+.navBD{
+	float:right;
+	width:33%;
+	text-align: right;
+}
+.navBC{
+	text-align: center;
+	float:left;
+	width:34%;
+}
 .copyRight{
 	font-family: initial;	
 	font-size: 20px;
+	padding:15px;
+	margin-top: 8px;
 }
 .headerT{
 	background-color: rgb(241,239,200);
@@ -14,6 +45,10 @@
 	border-color: rgb(130, 68, 17);
 	padding-bottom: 1%;
 	padding-top: 1.5%;
+}
+.navBottom{
+	background-color: rgb(241,239,200);
+	color:grey;
 }
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
