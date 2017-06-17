@@ -24,12 +24,12 @@
 	float:right;
 }
 .panelH{
-	margin:5%;
+	margin:2.5%;
 }
 .boton{
 	float:left;
 	width:20%;
-	margin-top: 90px;
+	margin-top: 87px;
 }
 
 .descHome{
@@ -54,7 +54,7 @@ img.imgCentro{
     margin-bottom: 3%;
 }
 h1.titulo{
-	margin-top: 57px;
+	margin-top: 55px;
 	margin-bottom: 0;
 }
 h3.subtitulo{
@@ -73,7 +73,7 @@ div.col-md-5.bots{
 }
 .botonac{
 	background-color: lightgrey;
-	margin-top: 90px;
+	margin-top: 87px;
 	float:left;
 	width:20%;
 }
