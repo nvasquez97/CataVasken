@@ -23,6 +23,9 @@
 	width:50%;
 	float:right;
 }
+.panelH{
+	margin:5%;
+}
 .boton{
 	float:left;
 	width:20%;
@@ -38,7 +41,7 @@
 }
 .botonac>a{
 	color:rgb(50,50,50);
-	font-size: 15px;
+	font-size: 13px;
 }
 div.col-md-7{
 	text-align: left;
@@ -64,7 +67,7 @@ div.col-md-6.bots{
 	padding-right: 0;
 }
 .boton>a{
-	font-size: 15px;
+	font-size: 13px;
 	color:grey;
 }
 .botonac{
