@@ -38,13 +38,16 @@
 }
 .botonac>a{
 	color:rgb(50,50,50);
-	font-size: 17px;
+	font-size: 15px;
 }
 .boton:hover{
 	background-color: lightgrey;
 }
+div.col-md-6.bots{
+	padding-right: 0;
+}
 .boton>a{
-	font-size: 17px;
+	font-size: 15px;
 	color:grey;
 }
 .botonac{
@@ -52,6 +55,9 @@
 	margin-top: 15%;
 	float:left;
 	width:20%;
+}
+.botones{
+	width:100%;
 }
 .imgI{
 	float:left;
