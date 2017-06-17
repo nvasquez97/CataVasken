@@ -1,8 +1,8 @@
 .titulo{
 	color: rgb(130, 68, 17);
 	font-family: Colonna;
-	font-size: 45px;
-	margin-top: 45px;
+	font-size: 40px;
+	margin-top: 55px;
 }
 .headerT{
 	background-color: rgb(241,239,200);
@@ -14,7 +14,7 @@
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
 	font-family: Colonna;
-	font-size: 30px;
+	font-size: 27px;
 }
 .home{
 	text-align: center;
@@ -36,7 +36,7 @@
 .boton{
 	float:left;
 	width:20%;
-	margin-top: 87px;
+	margin-top: 77px;
 }
 
 .descHome{
@@ -61,7 +61,7 @@ img.imgCentro{
     margin-bottom: 3%;
 }
 h1.titulo{
-	margin-top: 55px;
+	margin-top: 45px;
 	margin-bottom: 0;
 }
 h3.subtitulo{
@@ -80,7 +80,7 @@ div.col-md-5.bots{
 }
 .botonac{
 	background-color: lightgrey;
-	margin-top: 87px;
+	margin-top: 77px;
 	float:left;
 	width:20%;
 }
