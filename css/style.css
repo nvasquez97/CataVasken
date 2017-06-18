@@ -7,6 +7,9 @@
 .navBot{
 	color:grey;
 }
+p.descHome.colum{
+	margin: 0;
+}
 .marginT{
 	margin-top: 25px;
 	font-family: initial;	
