@@ -75,7 +75,7 @@
 						Please feel free to contact Artis Aegis, LLC with any questions about conservation or to request our services.
 						<br><br>
 						<strong>Tel:</strong> 757-405-2971
-						<br><br>
+						<br>
 						<strong>Email:</strong> artisaegis@gmail.com
 						<br><br>
 					</p>
@@ -126,6 +126,12 @@
         	mapTypeId: google.maps.MapTypeId.HYBRID
     	}
 		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+		var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(39.7235168, -104.8887981),
+          map: map,
+          title: 'Artis Aegis, LLC'
+        });
 	}
 </script>
 <script async defer
