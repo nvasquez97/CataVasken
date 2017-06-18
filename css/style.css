@@ -7,6 +7,9 @@
 .minnesota{
 	font-size: 10px;
 }
+div.col-md-6.map{
+	padding-left: 0;
+}
 .navBot{
 	color:grey;
 }
