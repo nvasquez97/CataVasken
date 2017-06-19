@@ -10,6 +10,9 @@
 div.col-md-6.map{
 	padding-left: 0;
 }
+div#map{
+	margin:5%;
+}
 .navBot{
 	color:grey;
 }
