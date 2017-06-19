@@ -56,6 +56,9 @@ li>p.descHome{
 	padding-right: 0;
 	margin-top: 8px;
 }
+.navBI>p.marginT{
+	padding-left: 0;
+}
 .headerT{
 	background-color: rgb(241,239,200);
 	border-bottom: solid 1px;
