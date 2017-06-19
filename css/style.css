@@ -65,6 +65,9 @@ li>p.descHome{
 	border-top: solid 1px;
 	border-color: rgb(130, 68, 17);
 }
+div.col-md-6.cont{
+	padding-right: 0;
+}
 .cent{
 	text-align: center;
 	font-family: initial;
