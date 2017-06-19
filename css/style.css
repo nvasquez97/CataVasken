@@ -86,10 +86,12 @@ div.col-md-6.cont{
 }
 div.link.col-md-4{
 	padding-left: 0;
+	padding-right: 0;
 }
 div.link.col-md-8{
 	padding-right: 0;
 	padding-top: 9.5%;
+	padding-left: 89.5px
 }
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
