@@ -14,6 +14,9 @@ div.col-md-6.map{
 div#map{
 	margin-top:35px;
 }
+.marginT>span{
+	font-size:15px;
+}
 .navBot{
 	color:grey;
 }
@@ -40,11 +43,13 @@ p.descHome.colum{
 	float:right;
 	width:33%;
 	text-align: right;
+	margin-top: 3.2%;
 }
 .navBC{
 	text-align: center;
 	float:left;
 	width:34%;
+	margin-top: 3.1%;
 }
 li>p.descHome{
 	margin:0;
@@ -58,6 +63,7 @@ li>p.descHome{
 }
 .navBI>p.marginT{
 	padding-left: 0;
+	text-align: justify;
 }
 .headerT{
 	background-color: rgb(241,239,200);
