@@ -8,10 +8,11 @@
 	font-size: 15px;
 }
 div.col-md-6.map{
+	padding-right: 20px;
 	padding-left: 0;
 }
 div#map{
-	margin:5%;
+	margin-top:35px;
 }
 .navBot{
 	color:grey;
@@ -69,7 +70,11 @@ li>p.descHome{
 	border-color: rgb(130, 68, 17);
 }
 div.col-md-6.cont{
+	padding-left: 20px;
 	padding-right: 0;
+}
+.map>p.descHome{
+	margin-bottom: 0;
 }
 .cent{
 	text-align: center;
