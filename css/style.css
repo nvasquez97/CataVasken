@@ -5,7 +5,7 @@
 	margin-top: 55px;
 }
 .minnesota{
-	font-size: 10px;
+	font-size: 12px;
 }
 div.col-md-6.map{
 	padding-left: 0;
@@ -87,18 +87,21 @@ div.link.col-md-8{
 	font-family: Colonna;
 	font-size: 27px;
 }
+img.about{
+	padding-right: 89.5px;
+}
 .home{
 	text-align: center;
 	display: inline-block;
 	width:100%;
 }
-div.col-md-5.aboutI{
+div.col-md-6.aboutI{
 	padding-left: 0;
 	padding-top: 2%;
 }
 .aboutD{
 	padding-right: 0;
-	padding-top: 9%;
+	padding-top: 5.5%;
 }
 .logo{
 	text-align: center;	
