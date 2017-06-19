@@ -79,6 +79,12 @@ li>p.descHome{
 	border-top: solid 1px;
 	border-color: rgb(130, 68, 17);
 }
+.madeBy{
+	font-size:12px;
+}
+.madeBy>a{
+	color:grey;
+}
 div.col-md-6.cont{
 	padding-left: 20px;
 	padding-right: 0;
