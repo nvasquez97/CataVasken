@@ -68,23 +68,25 @@
 			</div>
 			<div class="container">
 				<div class="col-md-6 map">
-					<div id="map" style="width:100%;height:400px"></div>
-				</div>
-				<div class="col-md-6">
 					<p class="descHome">
 						Please feel free to contact Artis Aegis, LLC with any questions about conservation or to request our services.
-						<br><br>
+						<br>
 						<strong>Tel:</strong> 757-405-2971
 						<br>
 						<strong>Email:</strong> artisaegis@gmail.com
-						<br><br>
+						<br>
 					</p>
+					<div id="map" style="width:100%;height:400px"></div>
 				</div>
-				<p class="descHome">
+				<div class="col-md-6">
+					
+					<p class="descHome">
 					We can discuss your inquiry over the phone, but an appointment to inspect your art object is best to assess your conservation needs. This preliminary consultation is usually followed by a careful examination of the art object. The process generates a formal condition report in electronic format that includes photographic documentation, as well as a treatment proposal with a binding estimate. The fee for this step is $150.  If a client chooses to go forth with treatment, $75 of this fee is credited to the final cost of treatment.  
 					<br><br>
 					Treatment starts as soon as the treatment proposal and a contract are signed, and a down payment of 30% of the estimate is received.  Treatments are typically completed within two or three months, depending on the complexity of the project. Rush orders can sometimes be accommodated for an additional charge.  The balance of the treatment cost is due when the work is retrieved from the studio.
 				</p>
+				</div>
+				
 			</div>
 			<a href="http://www.conservation-us.org/peer-reviewed" ><img width="90" height="90" src="http://www.conservation-us.org/images/default-source/membercenter/aic-pa-mark-logo.jpg?sfvrsn=4" alt="AIC Professional Associate Mark" title="AIC PA Mark" class="imgCentro" /></a>
 			<div class="navBottom">
@@ -121,14 +123,14 @@
 <script>
 	function myMap() {
     	var mapOptions = {
-        	center: new google.maps.LatLng(39.7235168, -104.8887981),
+        	center: new google.maps.LatLng(39.721752, -104.881263),
         	zoom: 14,
         	mapTypeId: google.maps.MapTypeId.HYBRID
     	}
 		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 		var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(39.7235168, -104.8887981),
+          position: new google.maps.LatLng(39.721752, -104.881263),
           map: map,
           title: 'Artis Aegis, LLC'
         });

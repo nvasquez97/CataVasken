@@ -65,6 +65,20 @@ li>p.descHome{
 	border-top: solid 1px;
 	border-color: rgb(130, 68, 17);
 }
+.cent{
+	text-align: center;
+	font-family: initial;
+	font-size: 20px;
+}
+.link{
+	padding-top: 2%;
+}
+div.link.col-md-4{
+	padding-left: 0;
+}
+div.link.col-md-8{
+	padding-right: 0;
+}
 .subtitulo{
 	color: rgba(130, 68, 17,0.7);
 	font-family: Colonna;
@@ -75,13 +89,13 @@ li>p.descHome{
 	display: inline-block;
 	width:100%;
 }
-div.col-md-4.aboutI{
+div.col-md-5.aboutI{
 	padding-left: 0;
 	padding-top: 2%;
 }
 .aboutD{
 	padding-right: 0;
-	padding-top: 5%;
+	padding-top: 9%;
 }
 .logo{
 	text-align: center;	
