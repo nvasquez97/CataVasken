@@ -1,2 +1,43 @@
-# CataVasken
-Website for Catalina Vásquez Kennedy
+# Website built for Artis Aegis LLC
+
+## Available Scripts
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Sections
+
+### Home
+
+Home page showing a general description of Artis Aegis studio.
+
+### About
+
+Page that shows general information about Catalina Vasquez Kennedy
+
+### Services
+
+Page that lists the different services that can be purchased
+
+### Contact
+
+Page that shows contact information for Artis Aegis
+
+### Links
+
+Page that shows related links
