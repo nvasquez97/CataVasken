@@ -41,11 +41,6 @@ class Services extends React.Component {
 						</li>
 						<li>
 							<p className="descHome">
-								Courier for art transit
-							</p>
-						</li>
-						<li>
-							<p className="descHome">
 								Disaster remediation 
 							</p>
 						</li>

@@ -59,6 +59,9 @@ div#map{
 p.descHome.colum{
 	margin: 0;
 }
+.centerText{
+	text-align: center !important;
+}
 .marginT{
 	margin-top: 25px;
 	font-size: 20px;
@@ -180,7 +183,8 @@ div.col-md-7.aboutD{
 	float:right;
 }
 .panelH{
-	margin:2%;
+	margin-top:2%;
+	margin-bottom: 2%;
 }
 .boton{
 	float:left;

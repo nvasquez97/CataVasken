@@ -1,6 +1,5 @@
 import './App.css';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -10,6 +9,7 @@ import Contact from './pages/contact';
 import Links from './pages/links';
 import Services from './pages/services';
 import Home from './pages/home';
+import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 //Define the routes for the different pages
@@ -37,16 +37,17 @@ const routes = [
 ];
 
 function App() {
+	const location = useLocation();
+	const year = new Date().getFullYear();
   return (
     <div className="App">
-		<Router>
       <div className="headerT">
 			<div className="container">
 				<div className="home ">
 					<div className="col-md-7">
 						<div className="todo">
 							<div className="imgI">
-								<img src="/imgs/HomeLog1.jpg" title="Artis Aegis" alt="Artis Aegis Icon" className="img-responsive img-rounded imglogo img-center" style={{maxheight:'175px'}}/>
+								<img src="/imgs/HomeLog1.jpg" title="Artis Aegis" alt="Artis Aegis Icon" className="img-responsive img-rounded imglogo img-center" style={{maxHeight:'175px'}}/>
 							</div>
 							<div className="textD">
 								<h1 className="titulo">
@@ -60,20 +61,20 @@ function App() {
 					</div>
 					<div className="col-md-5 bots">
 						<div className="botones">
-							<div className="boton">
+							<div className={location.pathname === '/' ? 'botonac' : 'boton'}>
 					<Link to="/" >HOME</Link>
 							</div>
-							<div className="botonac">
+							<div className={location.pathname === '/about' ? 'botonac' : 'boton'}>
 				<Link to="/about" >ABOUT</Link>
 							</div>
-							<div className="boton">
+							<div className={location.pathname === '/services' ? 'botonac' : 'boton'}>
 								<Link to="/services">SERVICES</Link>
 							</div>
-							<div className="boton">
+							<div className={location.pathname === '/contact' ? 'botonac' : 'boton'}>
 								<Link to="/contact">CONTACT</Link>
 							</div>
-							<div className="boton">
-								<Link to="links">LINKS</Link>
+							<div className={location.pathname === '/links' ? 'botonac' : 'boton'}>
+								<Link to="/links">LINKS</Link>
 							</div>
 						</div>
 					</div>
@@ -87,14 +88,13 @@ function App() {
           ) )}
         </Switch>
       </div>
-      </Router>
 	  <a href="http://www.conservation-us.org/peer-reviewed" ><img width="90" height="90" src="http://www.conservation-us.org/images/default-source/membercenter/aic-pa-mark-logo.jpg?sfvrsn=4" alt="AIC Professional Associate Mark" title="AIC PA Mark" className="imgCentro" /></a>
       <div className="navBottom">
 				<div className="container">
 					<div className="navG">
 						<div className="navBI">
 							<p className="marginT">
-								© 2017 Artis Aegis, LLC
+								© {year} Artis Aegis, LLC
 							</p>	
 							<p className="copyR">
 								Unless otherwise noted, all images and content of this site are the property of Artis Aegis, LLC and cannot be reproduced or published without written permission.
