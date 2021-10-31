@@ -47,11 +47,11 @@ function App() {
 					<div className="col-md-7">
 						<div className="todo">
 							<div className="imgI">
-								<img src="/imgs/HomeLog1.jpg" title="Artis Aegis" alt="Artis Aegis Icon" className="img-responsive img-rounded imglogo img-center" style={{maxHeight:'175px'}}/>
+								<img src="/imgs/HomeLog1.jpg" title="ArtisAegis" alt="ArtisAegis Icon" className="img-responsive img-rounded imglogo img-center" style={{maxHeight:'175px'}}/>
 							</div>
 							<div className="textD">
 								<h1 className="titulo">
-									Artis Aegis, LLC
+									ArtisAegis, LLC
 								</h1>
 								<h3 className="subtitulo">
 									Conservation of Paintings
@@ -94,10 +94,10 @@ function App() {
 					<div className="navG">
 						<div className="navBI">
 							<p className="marginT">
-								© {year} Artis Aegis, LLC
+								© {year} ArtisAegis, LLC
 							</p>	
 							<p className="copyR">
-								Unless otherwise noted, all images and content of this site are the property of Artis Aegis, LLC and cannot be reproduced or published without written permission.
+								Unless otherwise noted, all images and content of this site are the property of ArtisAegis, LLC and cannot be reproduced or published without written permission.
 							</p>
 						</div>
 						<div className="navBC">

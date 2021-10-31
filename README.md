@@ -1,4 +1,4 @@
-# Website built for Artis Aegis LLC
+# Website built for ArtisAegis LLC
 
 ## Available Scripts
 
@@ -24,7 +24,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Home
 
-Home page showing a general description of Artis Aegis studio.
+Home page showing a general description of ArtisAegis studio.
 
 ### About
 
@@ -36,7 +36,7 @@ Page that lists the different services that can be purchased
 
 ### Contact
 
-Page that shows contact information for Artis Aegis
+Page that shows contact information for ArtisAegis
 
 ### Links
 
