@@ -39,7 +39,7 @@
 
 .titulo{
 	color: rgb(130, 68, 17);
-	font-family: Colonna;
+	font-family: 'Colonna';
 	font-size: 40px;
 	margin-top: 55px;
 }
@@ -248,5 +248,5 @@ div.col-md-5.bots{
 }
 @font-face {
     font-family: Colonna;
-    /*src: url(/font/IMPRISHA.TTF);*/
+    src: url('./font/IMPRISHA.TTF');
 }
