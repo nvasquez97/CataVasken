@@ -12,6 +12,7 @@ node_modules
 # production
 /build
 /.firebase
+firebase-debug.log
 # misc
 .DS_Store
 .env.local

@@ -8,7 +8,7 @@ class Contact extends React.Component{
                 <div className="panelH container">
 				<img src="/imgs/ArabianHorses.jpg" style={{width:'100%'}} className="img-responsive" title="Arabian Horses" alt="Arabian Horses"/>
 				<p className="minnesota">
-					Fire-damage 19th cent. oil painting by Aldolf Schreyer titled  <em>Arab Horsemen in Battle</em>
+					Fire-damaged 19th cent. oil painting by Aldolf Schreyer titled  <em>Arab Horsemen in Battle</em>
 				</p>
 			    </div>
 			<div className="container">

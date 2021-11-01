@@ -8,7 +8,7 @@ class Services extends React.Component {
             <div className="panelH container">
 				<img src="/imgs/GirlDuringToilette.jpg" style={{width:'100%'}} className="img-responsive" title="Conservation" alt="Holmes Panel Conservation"/>
 				<p className="minnesota">
-					Late eighteenth century copy of <em>Titian's Portrait d'une Femme à sa Toilette</em>, ca. 1515, by an unknown French artist
+					Late 18th century copy of Titian's <em>Portrait d'une Femme à sa Toilette</em>, ca. 1515, by an unknown French artist
 				</p>
 			</div>
 			<div className="container">
@@ -54,11 +54,20 @@ class Services extends React.Component {
 						ArtisAegis, LLC emphasizes preventive care in order to minimize the need for future restoration treatments for your work of art. All treatments reflect current conservation practice, employ minimally invasive treatment methods as a standard of care, and seek to preserve the structural, aesthetic, and historical integrity of works of art. 
 						<br /><br />
 						All works are evaluated on an individual basis; treatment decisions cannot be made without first examining a work of art.
-						<br /><br />
-						<u>Please note</u>: The inherent market worth of a given artwork has no impact on the cost of treatment. All works of art are treated as equals and receive the same attention to detail regardless of their monetary value.  
 					</p>
 				</div>
 			</div>
+				<div className="container panelH">
+					<div className="col-md-2 col-sm-0">
+					</div>
+					<div className="col-md-8 col-sm-12"> 
+						<p className="descHome centerText">
+						<u>Please note</u>: The inherent market worth of a given artwork has no impact on the cost of treatment. All works of art are treated as equals and receive the same attention to detail regardless of their monetary value.  
+						</p>
+					</div>
+					<div>
+					</div>
+				</div>
             </div>
         );
     }
